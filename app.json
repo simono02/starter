@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "waterbill",
     "name": "frontend",
     "slug": "frontend",
     "version": "1.0.0",
@@ -24,6 +25,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
